@@ -13,6 +13,6 @@ public:
 
 int main(){
     FindGCD findGCD;
-    int a = 16, b = 1;
-    cout << findGCD.gcd(max(a, b), min(a,b));
+    int a = 20, b = 28;
+    cout << findGCD.gcd(a, b);
 }
